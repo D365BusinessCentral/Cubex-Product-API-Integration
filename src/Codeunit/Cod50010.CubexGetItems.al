@@ -6,6 +6,7 @@ codeunit 51010 "Cubex Get Items"
         GetItemsList();
     end;
 
+
     procedure CheckSetup()
     begin
         APIConfiguration.Get();
